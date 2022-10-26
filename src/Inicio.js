@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Inicio = () => {
+function Inicio(){
   return (
     <h1>Proyecto 3 Equipo 4</h1>
   )
