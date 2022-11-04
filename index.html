@@ -14,31 +14,34 @@
     />
     <!--css style -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
     <!--chart js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 col-md-2 px-0">
+        <div class="col-12 col-md-3 px-0">
           <div class="sidemenu">
             <h4>Proyecto 3</h4>
             <h4>Equipo 4</h4>
 
             <img src="./assets/bitcoin.png" class="img-fluid" />
             <h4>Bitcoin</h4>
-            <button id="btnUpdate">Actualizar</button>
+            <button id="btnUpdate">ACTUALIZAR</button>
           </div>
         </div>
-        <div class="col-12 col-md-10 px-0">
+        <div class="col-12 col-md-9 px-0">
           <div
             class="main d-flex flex-column align-items-center justify-content-center"
           >
             <h3 class="title">
-              Valor de 1 Bitcoin en relación a algunas divisas
+              Cotización Bitcoin|BTC a USD| BTC a CAD |BTC a EUR
             </h3>
-            <div class="chart">
-              <canvas id="myChart" width="400" height="400"></canvas>
+            <div class="chart" style=" height:400; width:400">
+              <canvas id="myChart"></canvas>
             </div>
           </div>
         </div>
