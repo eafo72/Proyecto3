@@ -1,17 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    }
+
+h3 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    }
+
+h4{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: .5px; 
+    margin-top: 10px;
+    }
+
+.bitcoin{
+    color: #ffbf00;
+    font-size: 1.5em;
+    font-weight: 700;
+    }
+
 .sidemenu {
     text-align: center;
     background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgba(32, 32, 32, 0.87) 90%);
     color:white;
-    padding: 40px 20px;
+    padding: 100px 20px;
     height: 100vh;
+    width: 100%;
 }
 .sidemenu img {
-    width: 150px;
-    height: 150px;
-    margin-top: 20px;
+    width: 160px;
+    height: 160px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .main{
-    background: radial-gradient(circle at 10% 20%, rgb(255, 255, 255) 0%, rgba(32, 32, 32, 0.87) 90%);
+    background: radial-gradient(circle at 10% 20%, rgb(255, 255, 255) 0%, rgba(32, 32, 32, 0.87) 100%);
     padding: 40px 20px;
     height: 100vh;
 }
@@ -23,3 +54,23 @@
     width: 500px;
     height: 500px;
 }
+
+#btnUpdate{
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 600;
+    background-color:#ffbf00;
+    color:white;
+    border-radius: 5px;
+    border: solid #ffbf00;
+    color:white;
+    border-radius: 5px;
+    width: 150px;
+    border: solid #ffbf00; 
+    justify-content: space-around;
+    }
+    
+    #btnUpdate:hover{
+    box-shadow: 0 0 10px 0 #e74c4c inset, 0 0 10px 4px #e74c4c;
+    }
+    
