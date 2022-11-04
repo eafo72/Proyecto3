@@ -6,6 +6,10 @@
     font-family: 'PT Serif', serif;
     }
 
+.container-fluid, .sidemenu{
+        height: 100%;
+    }
+
 h3 {
     text-align: center;
     font-size: 1.8em;
@@ -19,20 +23,22 @@ h4{
     font-weight: 700;
     letter-spacing: .5px; 
     margin-top: 10px;
+    
     }
 
 
 .bitcoin{
     color: #ffbf00;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
     }
+
 
 .sidemenu {
     text-align: center;
     background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgba(32, 32, 32, 0.87) 90%);
     color:white;
-    padding: 120px 20px;
+    padding: 100px 20px;
     height: 100vh;
     width: 100%;
 }
@@ -44,16 +50,15 @@ h4{
 }
 .main{
     background: radial-gradient(circle at 10% 20%, rgb(255, 255, 255) 0%, rgba(32, 32, 32, 0.87) 100%);
-    padding: 40px;
+    padding: 40px, 20px;
     height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    
     
 }
 .main .title{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 

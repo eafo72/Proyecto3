@@ -7,7 +7,7 @@ clearChart.addEventListener('click', () =>{
 });
 */
 
-Chart.defaults.font.size = 20;
+Chart.defaults.font.size = 18;
 const updateChart = document.getElementById("btnUpdate");
 updateChart.addEventListener("click", () => {
   removeData();
