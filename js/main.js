@@ -6,6 +6,8 @@ clearChart.addEventListener('click', () =>{
     
 });
 */
+
+Chart.defaults.font.size = 20;
 const updateChart = document.getElementById("btnUpdate");
 updateChart.addEventListener("click", () => {
   removeData();
@@ -82,7 +84,10 @@ let ChartData = {
       },
     ],
   },
-  options: {},
+  options: {
+    responsive: true,
+    maintainAspectRatio:false,
+  },
 };
 
 const ctx = document.getElementById("myChart").getContext("2d");
